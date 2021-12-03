@@ -6,7 +6,8 @@ root.geometry('200x200')
 
 # frame = LabelFrame(root,text='Login',padx=20,pady=15,borderwidth=4) Si le dejamos el "TEXT" se queda en el cuadradito
 
-frame = LabelFrame(root,padx=20,pady=15,borderwidth=4) #Para hacer box
+#frame = LabelFrame(root,padx=20,pady=15,borderwidth=4) #Para hacer box
+frame = Frame(root,padx=20,pady=15,borderwidth=5) #Caja invisible
 frame.pack(pady=20,padx=20)
 
 l = Label(frame,text='Caja')
