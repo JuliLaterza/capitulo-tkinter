@@ -14,7 +14,8 @@ e.insert(0,"Ingresa texto: ")
 def click():
     texto = e.get() #Obtengo el dato
     textVariable.set(texto)
-
+    valor = textVariable.get()
+    print(valor)
     #l = Label(root,text=texto) #Este código sirve para hacer una lista
     #l.pack() 
     e.delete(0,END)
